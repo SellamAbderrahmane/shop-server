@@ -1,0 +1,40 @@
+{
+  "name": "tsnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --config nodemon.json src/www.ts",
+    "typecheck": "tsc",
+    "typecheck:watch": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/cors": "^2.8.10",
+    "@types/express": "^4.17.12",
+    "@types/jsonwebtoken": "^8.5.1",
+    "@types/morgan": "^1.9.2",
+    "@types/multer-gridfs-storage": "^4.0.1",
+    "@types/uuid": "^8.3.0",
+    "nodemon": "^2.0.7",
+    "ts-node": "^10.0.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongodb": "^3.6.8",
+    "mongoose": "^5.12.12",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^4.2.0",
+    "typescript-ioc": "^3.2.2",
+    "uuid": "^8.3.2"
+  }
+}

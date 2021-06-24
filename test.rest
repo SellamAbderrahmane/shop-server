@@ -1,0 +1,25 @@
+POST http://localhost:3001/v1/auth/sign-in
+content-type: application/json
+
+{
+  "email": "abde@test.com",
+  "password": "abde"
+}
+
+###
+POST http://localhost:3001/v1/auth/sign-up
+content-type: application/json
+
+{
+  "email": "abde1@test.com",
+  "password": "abde"
+}
+
+###
+GET http://localhost:3001/v1/product/all
+content-type: application/json
+
+
+###
+GET http://localhost:3001/v1/file/upload
+content-type: application/json
